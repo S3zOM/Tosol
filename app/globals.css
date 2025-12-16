@@ -121,3 +121,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+@media print {
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1cm;
+    margin: 2cm;
+    margin-left: 2.5cm;
+  }
+}
