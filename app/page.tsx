@@ -186,173 +186,174 @@ export default function ProjectProposalWebsite() {
         </section>
 
         {/* Key Information Cards */}
-        <section className="grid md:grid-cols-4 gap-6 mb-16">
-          <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-            <CardContent className="p-6 text-center">
-              <FileText className="mb-4 mx-auto text-blue-400" size={32} />
-              <h3 className="text-lg font-semibold mb-2">Төслийн төрөл</h3>
-              <p className="text-slate-300 text-sm">
-                Технологийн туршилт ба хөгжил
-              </p>
-            </CardContent>
-          </Card>
+<section className="grid md:grid-cols-4 gap-6 mb-16">
+  <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+    <CardContent className="p-6 text-center">
+      <FileText className="mb-4 mx-auto text-blue-400" size={32} />
+      <h3 className="text-lg font-semibold mb-2 text-white">Төслийн төрөл</h3>
+      <p className="text-slate-300 text-sm">
+        Технологийн туршилт ба хөгжил
+      </p>
+    </CardContent>
+  </Card>
 
-          <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-            <CardContent className="p-6 text-center">
-              <DollarSign className="mb-4 mx-auto text-green-400" size={32} />
-              <h3 className="text-lg font-semibold mb-2">Санхүүжилт</h3>
-              <p className="text-slate-300 text-sm">50,000,000 MNT</p>
-            </CardContent>
-          </Card>
+  <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+    <CardContent className="p-6 text-center">
+      <DollarSign className="mb-4 mx-auto text-green-400" size={32} />
+      <h3 className="text-lg font-semibold mb-2 text-white">Санхүүжилт</h3>
+      <p className="text-slate-300 text-sm">50,000,000 MNT</p>
+    </CardContent>
+  </Card>
 
-          <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-            <CardContent className="p-6 text-center">
-              <Target className="mb-4 mx-auto text-purple-400" size={32} />
-              <h3 className="text-lg font-semibold mb-2">Хугацаа</h3>
-              <p className="text-slate-300 text-sm">12 сар</p>
-            </CardContent>
-          </Card>
+  <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+    <CardContent className="p-6 text-center">
+      <Target className="mb-4 mx-auto text-purple-400" size={32} />
+      <h3 className="text-lg font-semibold mb-2 text-white">Хугацаа</h3>
+      <p className="text-slate-300 text-sm">12 сар</p>
+    </CardContent>
+  </Card>
 
-          <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-            <CardContent className="p-6 text-center">
-              <Users className="mb-4 mx-auto text-orange-400" size={32} />
-              <h3 className="text-lg font-semibold mb-2">Чиглэл</h3>
-              <p className="text-slate-300 text-sm">Инженерчлэл ба технологи</p>
-            </CardContent>
-          </Card>
-        </section>
+  <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+    <CardContent className="p-6 text-center">
+      <Users className="mb-4 mx-auto text-orange-400" size={32} />
+      <h3 className="text-lg font-semibold mb-2 text-white">Чиглэл</h3>
+      <p className="text-slate-300 text-sm">Инженерчлэл ба технологи</p>
+    </CardContent>
+  </Card>
+</section>
 
-        {/* Project Objectives */}
-        <section className="grid md:grid-cols-3 gap-6 mb-16">
-          <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-            <CardContent className="p-6">
-              <Ruler className="mb-4 text-blue-400" size={28} />
-              <h2 className="text-xl font-semibold mb-2">Засварын стандарт</h2>
-              <p className="text-slate-300">
-                Лабораторийн өрөөг орчин үеийн боловсролын болон аюулгүй байдлын
-                стандартын дагуу шинэчлэх.
-              </p>
-            </CardContent>
-          </Card>
+       {/* Project Objectives */}
+<section className="grid md:grid-cols-3 gap-6 mb-16">
+  <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+    <CardContent className="p-6">
+      <Ruler className="mb-4 text-blue-400" size={28} />
+      <h2 className="text-xl font-semibold mb-2 text-white">Засварын стандарт</h2>
+      <p className="text-slate-300">
+        Лабораторийн өрөөг орчин үеийн боловсролын болон аюулгүй байдлын
+        стандартын дагуу шинэчлэх.
+      </p>
+    </CardContent>
+  </Card>
 
-          <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-            <CardContent className="p-6">
-              <FlaskConical className="mb-4 text-green-400" size={28} />
-              <h2 className="text-xl font-semibold mb-2">
-                Тоног төхөөрөмжийг сайжруулах
-              </h2>
-              <p className="text-slate-300">
-                Шинэ туршилтын хэрэгсэл, аюулгүй ажиллагааны тоног төхөөрөмж,
-                лабораторийн тавилга суурилуулах.
-              </p>
-            </CardContent>
-          </Card>
+  <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+    <CardContent className="p-6">
+      <FlaskConical className="mb-4 text-green-400" size={28} />
+      <h2 className="text-xl font-semibold mb-2 text-white">
+        Тоног төхөөрөмжийг сайжруулах
+      </h2>
+      <p className="text-slate-300">
+        Шинэ туршилтын хэрэгсэл, аюулгүй ажиллагааны тоног төхөөрөмж,
+        лабораторийн тавилга суурилуулах.
+      </p>
+    </CardContent>
+  </Card>
 
-          <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-            <CardContent className="p-6">
-              <CheckCircle className="mb-4 text-purple-400" size={28} />
-              <h2 className="text-xl font-semibold mb-2">Чанарыг сайжруулах</h2>
-              <p className="text-slate-300">
-                Практик ур чадвар, судалгаанд суурилсан боловсрол болон нийт
-                сургалтын үр дүнг нэмэгдүүлэх.
-              </p>
-            </CardContent>
-          </Card>
-        </section>
+  <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+    <CardContent className="p-6">
+      <CheckCircle className="mb-4 text-purple-400" size={28} />
+      <h2 className="text-xl font-semibold mb-2 text-white">Чанарыг сайжруулах</h2>
+      <p className="text-slate-300">
+        Практик ур чадвар, судалгаанд суурилсан боловсрол болон нийт
+        сургалтын үр дүнг нэмэгдүүлэх.
+      </p>
+    </CardContent>
+  </Card>
+</section>
 
-        {/* Implementation Plan */}
-        <section className="mb-16">
-          <motion.h2
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="text-3xl font-bold mb-6"
-          >
-            Хэрэгжилтийн төлөвлөгөө
-          </motion.h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
-                    1
-                  </div>
-                  <h3 className="text-xl font-semibold">
-                    Төлөвлөлт ба бэлтгэл
-                  </h3>
-                </div>
-                <p className="text-slate-400 text-sm mb-3">1-р сар</p>
-                <ul className="list-disc list-inside text-slate-300 space-y-2">
-                  <li>Талбайн үнэлгээ, төлөвлөлт хийх</li>
-                  <li>Төслийн нарийвчилсан шаардлагыг боловсруулах</li>
-                  <li>Шаардлагатай зөвшөөрөл, баталгаажуулалтыг авах</li>
-                  <li>Худалдан авалтын төлөвлөгөө, төсвийн хуваарилалт хийх</li>
-                  <li>Төслийн баг бүрдүүлж, үүрэг хариуцлага хуваарилах</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
-                    2
-                  </div>
-                  <h3 className="text-xl font-semibold">Засвар ба дэд бүтэц</h3>
-                </div>
-                <p className="text-slate-400 text-sm mb-3">2–4-р сар</p>
-                <ul className="list-disc list-inside text-slate-300 space-y-2">
-                  <li>Бүтцийн засварыг бүрэн дуусгах</li>
-                  <li>Цахилгаан болон сантехникийн шинэчлэл хийх</li>
-                  <li>Агааржуулалт ба аюулгүй байдлын систем суурилуулах</li>
-                  <li>Дотоод засал, будгийг хийх</li>
-                  <li>Лабораторийн тавилга, тоноглол суурилуулах</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
-                    3
-                  </div>
-                  <h3 className="text-xl font-semibold">
-                    Тоног төхөөрөмж ба суурилуулалт
-                  </h3>
-                </div>
-                <p className="text-slate-400 text-sm mb-3">5–8-р сар</p>
-                <ul className="list-disc list-inside text-slate-300 space-y-2">
-                  <li>Лабораторийн тоног төхөөрөмж худалдан авч, хүргэх</li>
-                  <li>Микроскоп, центрифуг, анализатор суурилуулах</li>
-                  <li>Компьютерийн систем, программ хангамж тохируулах</li>
-                  <li>Бүх тоног төхөөрөмжийг шалгаж, тохируулах</li>
-                  <li>Аюулгүй ажиллагааны журам, протокол тогтоох</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-              <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
-                    4
-                  </div>
-                  <h3 className="text-xl font-semibold">Сургалт ба үнэлгээ</h3>
-                </div>
-                <p className="text-slate-400 text-sm mb-3">9–12-р сар</p>
-                <ul className="list-disc list-inside text-slate-300 space-y-2">
-                  <li>
-                    Ажилтнуудад зориулсан сургалтын хөтөлбөр зохион байгуулах
-                  </li>
-                  <li>Стандарт ажиллагааны заавар боловсруулах</li>
-                  <li>Эцсийн аюулгүй байдлын шалгалт хийх</li>
-                  <li>Төслийн үр дүн, нөлөөллийг үнэлэх</li>
-                  <li>Засвар үйлчилгээ, дэмжлэгийн систем бий болгох</li>
-                </ul>
-              </CardContent>
-            </Card>
+       {/* Implementation Plan */}
+<section className="mb-16">
+  <motion.h2
+    initial={{ opacity: 0, x: -30 }}
+    animate={{ opacity: 1, x: 0 }}
+    className="text-3xl font-bold mb-6"
+  >
+    Хэрэгжилтийн төлөвлөгөө
+  </motion.h2>
+  <div className="grid md:grid-cols-2 gap-6">
+    <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+      <CardContent className="p-6">
+        <div className="flex items-center mb-4">
+          <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            1
           </div>
+          <h3 className="text-xl font-semibold text-white">
+            Төлөвлөлт ба бэлтгэл
+          </h3>
+        </div>
+        <p className="text-slate-400 text-sm mb-3">1-р сар</p>
+        <ul className="list-disc list-inside text-slate-300 space-y-2">
+          <li>Талбайн үнэлгээ, төлөвлөлт хийх</li>
+          <li>Төслийн нарийвчилсан шаардлагыг боловсруулах</li>
+          <li>Шаардлагатай зөвшөөрөл, баталгаажуулалтыг авах</li>
+          <li>Худалдан авалтын төлөвлөгөө, төсвийн хуваарилалт хийх</li>
+          <li>Төслийн баг бүрдүүлж, үүрэг хариуцлага хуваарилах</li>
+        </ul>
+      </CardContent>
+    </Card>
 
+    <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+      <CardContent className="p-6">
+        <div className="flex items-center mb-4">
+          <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            2
+          </div>
+          <h3 className="text-xl font-semibold text-white">
+            Засвар ба дэд бүтэц
+          </h3>
+        </div>
+        <p className="text-slate-400 text-sm mb-3">2–4-р сар</p>
+        <ul className="list-disc list-inside text-slate-300 space-y-2">
+          <li>Бүтцийн засварыг бүрэн дуусгах</li>
+          <li>Цахилгаан болон сантехникийн шинэчлэл хийх</li>
+          <li>Агааржуулалт ба аюулгүй байдлын систем суурилуулах</li>
+          <li>Дотоод засал, будгийг хийх</li>
+          <li>Лабораторийн тавилга, тоноглол суурилуулах</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+      <CardContent className="p-6">
+        <div className="flex items-center mb-4">
+          <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            3
+          </div>
+          <h3 className="text-xl font-semibold text-white">
+            Тоног төхөөрөмж ба суурилуулалт
+          </h3>
+        </div>
+        <p className="text-slate-400 text-sm mb-3">5–8-р сар</p>
+        <ul className="list-disc list-inside text-slate-300 space-y-2">
+          <li>Лабораторийн тоног төхөөрөмж худалдан авч, хүргэх</li>
+          <li>Микроскоп, центрифуг, анализатор суурилуулах</li>
+          <li>Компьютерийн систем, программ хангамж тохируулах</li>
+          <li>Бүх тоног төхөөрөмжийг шалгаж, тохируулах</li>
+          <li>Аюулгүй ажиллагааны журам, протокол тогтоох</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+      <CardContent className="p-6">
+        <div className="flex items-center mb-4">
+          <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+            4
+          </div>
+          <h3 className="text-xl font-semibold text-white">
+            Сургалт ба үнэлгээ
+          </h3>
+        </div>
+        <p className="text-slate-400 text-sm mb-3">9–12-р сар</p>
+        <ul className="list-disc list-inside text-slate-300 space-y-2">
+          <li>Ажилтнуудад зориулсан сургалтын хөтөлбөр зохион байгуулах</li>
+          <li>Стандарт ажиллагааны заавар боловсруулах</li>
+          <li>Эцсийн аюулгүй байдлын шалгалт хийх</li>
+          <li>Төслийн үр дүн, нөлөөллийг үнэлэх</li>
+          <li>Засвар үйлчилгээ, дэмжлэгийн систем бий болгох</li>
+        </ul>
+      </CardContent>
+    </Card>
+  </div>
           {/* Timeline Overview */}
           <Card className="bg-gradient-to-r from-slate-800/70 to-slate-900/70 border-slate-600 rounded-2xl mt-8">
             <CardContent className="p-6">
@@ -396,13 +397,13 @@ export default function ProjectProposalWebsite() {
             animate={{ opacity: 1, x: 0 }}
             className="text-3xl font-bold mb-6"
           >
-           Төслийн зорилго, зорилтууд
+            Төслийн зорилго, зорилтууд
           </motion.h2>
           <div className="space-y-6">
             <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4 text-green-400">
-                   Ерөнхий зорилго
+                  Ерөнхий зорилго
                 </h3>
                 <p className="text-slate-300 text-lg">
                   Сургуулийн лабораторийн орчныг сайжруулж, боловсролын чанарыг
@@ -414,7 +415,7 @@ export default function ProjectProposalWebsite() {
             <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4 text-blue-400">
-                   Төслийн зорилтууд
+                  Төслийн зорилтууд
                 </h3>
                 <ul className="list-disc list-inside text-slate-300 space-y-2">
                   <li>Лабораторийн өрөөг стандартын дагуу шинэчлэх</li>
@@ -428,7 +429,7 @@ export default function ProjectProposalWebsite() {
             <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4 text-purple-400">
-                   Төслийн нөлөө
+                  Төслийн нөлөө
                 </h3>
                 <p className="text-slate-300">
                   Сурагчид, багш нар болон нийт сургууль сайжруулсан сургалтын
@@ -440,35 +441,57 @@ export default function ProjectProposalWebsite() {
         </section>
 
         {/* Current Situation */}
-        <section className="mb-16">
-          <motion.h2
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="text-3xl font-bold mb-6"
-          >
-            Одоогийн байдал
-          </motion.h2>
-          <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-            <CardContent className="p-6">
-              <div className="text-center">
-                <FileText className="mx-auto mb-4 text-orange-400" size={48} />
-                <p className="text-slate-300 mb-4">
-                  Лабораторийн одоогийн нөхцөл байдлын үнэлгээ болон
-                  баримтжуулалт.
-                </p>
-                <p className="text-slate-400 text-sm">
-                  (Одоогийн лабораторийн зураг, баримт бичгийг энд хавсаргана.)
-                </p>
-                <div className="mt-6 p-4 bg-slate-800/50 rounded-lg">
-                  <p className="text-slate-300">
-                    Одоогийн лаборатори нь орчин үеийн боловсролын болон аюулгүй
-                    байдлын стандартуудыг хангахын тулд шинэчлэл шаардлагатай.
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
+<section className="mb-16">
+  <motion.h2
+    initial={{ opacity: 0, x: -30 }}
+    animate={{ opacity: 1, x: 0 }}
+    className="text-3xl font-bold mb-6"
+  >
+    Одоогийн байдал
+  </motion.h2>
+  <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
+    <CardContent className="p-6">
+      <div className="text-center">
+        <FileText className="mx-auto mb-4 text-orange-400" size={48} />
+        <p className="text-slate-300 mb-4">
+          Лабораторийн одоогийн нөхцөл байдлын үнэлгээ болон баримтжуулалт.
+        </p>
+        <p className="text-slate-400 text-sm mb-6">
+          (Одоогийн лабораторийн зураг, баримт бичгийг энд хавсаргана.)
+        </p>
+        <div className="mt-6 p-4 bg-slate-800/50 rounded-lg mb-6">
+          <p className="text-slate-300">
+            Одоогийн лаборатори нь орчин үеийн боловсролын болон аюулгүй байдлын стандартуудыг хангахын тулд шинэчлэл шаардлагатай.
+          </p>
+        </div>
+
+       {/* Photo gallery */}
+<div className="grid grid-cols-4 gap-2 mt-4">
+  <img
+    src="pic1.jpg"
+    alt="Current lab 1"
+    className="w-full h-24 object-cover rounded-md"
+  />
+  <img
+    src="pic2.jpg"
+    alt="Current lab 2"
+    className="w-full h-24 object-cover rounded-md"
+  />
+  <img
+    src="pic3.jpg"
+    alt="Current lab 3"
+    className="w-full h-24 object-cover rounded-md"
+  />
+  <img
+    src="pic4.jpg"
+    alt="Current lab 4"
+    className="w-full h-24 object-cover rounded-md"
+  />
+</div>
+      </div>
+    </CardContent>
+  </Card>
+</section>
 
         {/* Project Results */}
         <section className="mb-16">
@@ -537,9 +560,7 @@ export default function ProjectProposalWebsite() {
                   Төслийн ахлагч
                 </p>
                 <div className="space-y-2 text-slate-300 text-sm">
-                  <p>
-                    
-                  </p>
+                  <p></p>
                   <p>
                     <strong>Туршлага:</strong> Сурагч
                   </p>
@@ -557,7 +578,7 @@ export default function ProjectProposalWebsite() {
                   🔬
                 </div>
                 <h3 className="text-xl font-semibold text-center mb-2">
-                  [Manduul]
+                  [Oyuntugs]
                 </h3>
                 <p className="text-blue-400 text-center text-sm mb-3">
                   [Сурагч]
@@ -566,12 +587,8 @@ export default function ProjectProposalWebsite() {
                   <p>
                     <strong>Харьяалах сургууль:</strong> [Шинэ Өнөөдөр]
                   </p>
-                  <p>
-                 
-                  </p>
-                  <p>
-                   
-                  </p>
+                  <p></p>
+                  <p></p>
                 </div>
               </CardContent>
             </Card>
@@ -591,11 +608,8 @@ export default function ProjectProposalWebsite() {
                   <p>
                     <strong>Харьяалах сургууль:</strong> [Шинэ Өнөөдөр]
                   </p>
-                  <p>
-                  </p>
-                  <p>
-                   
-                  </p>
+                  <p></p>
+                  <p></p>
                 </div>
               </CardContent>
             </Card>
@@ -615,63 +629,24 @@ export default function ProjectProposalWebsite() {
                   <p>
                     <strong>Харьяалах сургууль:</strong> [Шинэ Өнөөдөр]
                   </p>
-                  <p>
-                   
-                  </p>
-                  <p>
-                  
-                  </p>
+                  <p></p>
+                  <p></p>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-              <CardContent className="p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-2xl mb-4 mx-auto">
-                  🔬
-                </div>
-                <h3 className="text-xl font-semibold text-center mb-2">
-                  [Nomin-Erdene]
-                </h3>
-                <p className="text-blue-400 text-center text-sm mb-3">
-                  [Сурагч]
-                </p>
-                <div className="space-y-2 text-slate-300 text-sm">
-                  <p>
-                    <strong>Харьяалах сургууль:</strong> [Шинэ Өнөөдөр]
-                  </p>
-                  <p>
-                   
-                  </p>
-                  <p>
-                   
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="bg-slate-900/70 border-slate-700 rounded-2xl">
-              <CardContent className="p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-2xl mb-4 mx-auto">
-                  🔬
-                </div>
-                <h3 className="text-xl font-semibold text-center mb-2">
-                  [Udirdagch]
-                </h3>
-                <p className="text-blue-400 text-center text-sm mb-3">
-                  [Сурагч]
-                </p>
-                <div className="space-y-2 text-slate-300 text-sm">
-                  <p>
-                    <strong>Харьяалах сургууль:</strong> [Шинэ Өнөөдөр]
-                  </p>
-                  <p>
-                  
-                  </p>
-                  <p>
-                   
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
+          </div>
+        </section>
+
+        {/* Risks Section */}
+        <section className="mb-16">
+          <motion.h2
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            className="text-3xl font-bold mb-6"
+          >
+            Эрсдэлүүд
+          </motion.h2>
+          <div className="space-y-6">
             <Card className="bg-red-900/20 border-red-700/50 rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4 text-red-400 flex items-center">
@@ -710,128 +685,34 @@ export default function ProjectProposalWebsite() {
                   <li>Аюулгүй байдлын зөрчил</li>
                 </ul>
               </CardContent>
-            </Card>{" "}
-          </div>
-        </section>
-
-        {false && (
-          <Card className="bg-red-900/20 border-red-700/50 rounded-2xl">
-            <CardContent className="p-6">
-              <h3 className="text-xl font-semibold mb-4 text-red-400 flex items-center">
-                <span className="w-3 h-3 bg-red-500 rounded-full mr-3 inline-block"></span>
-                Санхүү, төсвийн эрсдэл
-              </h3>
-              <ul className="list-disc list-inside text-slate-300 space-y-2">
-                <li>
-                  <strong>Зардлын хэтрэлт:</strong> Зах зээлийн хэлбэлзэл эсвэл
-                  гэнэтийн импортын татварын улмаас тоног төхөөрөмжийн үнэ
-                  тооцооллоос давж болзошгүй
-                </li>
-                <li>
-                  <strong>Санхүүжилтийн саатал:</strong> Санхүүжилтийн олголт
-                  удааширснаар барилга угсралт болон худалдан авалтын үйл
-                  ажиллагаа зогсох эрсдэлтэй
-                </li>
-                <li>
-                  <strong>Инфляцын нөлөө:</strong> 12 сарын хугацаанд материалын
-                  үнэ өсөх нь төсөвт ачаалал учруулж болзошгүй
-                </li>
-                <li>
-                  <strong>Нууц зардлууд:</strong> Зөвшөөрөл, шалгалт эсвэл
-                  нэмэлт аюулгүй байдлын шаардлагатай холбоотой урьдчилан
-                  тооцоолоогүй зардлууд
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-        )}
-
-        <Card className="bg-orange-900/20 border-orange-700/50 rounded-2xl">
-          <CardContent className="p-6">
-            <h3 className="text-xl font-semibold mb-4 text-orange-400 flex items-center">
-              <span className="w-3 h-3 bg-orange-500 rounded-full mr-3 inline-block"></span>
-              Нийлүүлэлтийн сүлжээ ба худалдан авалтын эрсдэл
-            </h3>
-            <ul className="list-disc list-inside text-slate-300 space-y-2">
-              <li>
-                <strong>Тоног төхөөрөмжийн саатал:</strong> Олон улсын
-                нийлүүлэгчдээс үйлдвэрлэл эсвэл тээвэрлэлтийн саатал гарах
-              </li>
-              <li>
-                <strong>Чанарын асуудал:</strong> Лабораторийн стандартад
-                нийцэхгүй чанар муутай тоног төхөөрөмж
-              </li>
-              <li>
-                <strong>Импортын хязгаарлалт:</strong> Шинжлэх ухааны тоног
-                төхөөрөмжид гаалийн саатал эсвэл зохицуулалтын саад бэрхшээл
-                үүсэх
-              </li>
-              <li>
-                <strong>Нийлүүлэгчийн найдвартай байдал:</strong> Нийлүүлэгч
-                дампуурах эсвэл амласнаа биелүүлэхгүй байх
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="bg-yellow-900/20 border-yellow-700/50 rounded-2xl">
-          <CardContent className="p-6">
-            <h3 className="text-xl font-semibold mb-4 text-yellow-400 flex items-center">
-              <span className="w-3 h-3 bg-yellow-500 rounded-full mr-3 inline-block"></span>
-              Техникийн болон үйл ажиллагааны эрсдэл
-            </h3>
-            <ul className="list-disc list-inside text-slate-300 space-y-2">
-              <li>
-                <strong>Суурилуулалтын хүндрэл:</strong> Орон нутагт байхгүй
-                мэргэшсэн техникч шаардсан нарийн төвөгтэй тоног төхөөрөмж
-              </li>
-              <li>
-                <strong>Дэд бүтцийн хязгаарлалт:</strong> Барилгын цахилгаан
-                эсвэл агааржуулалтын систем лабораторийн шаардлагад нийцэхгүй
-                байх
-              </li>
-              <li>
-                <strong>Калибровкын асуудал:</strong> Буруу тохируулгын улмаас
-                суурилуулалтын дараа тоног төхөөрөмж доголдох
-              </li>
-              <li>
-                <strong>Засвар үйлчилгээний шаардлага:</strong>
-                Тоног төхөөрөмжийн байнгын засвар үйлчилгээнд орон нутгийн
-                техникийн дэмжлэг дутмаг байх
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="bg-purple-900/20 border-purple-700/50 rounded-2xl">
-          <CardContent className="p-6">
-            <h3 className="text-xl font-semibold mb-4 text-purple-400 flex items-center">
-              <span className="w-3 h-3 bg-purple-500 rounded-full mr-3 inline-block"></span>
-              Хүний нөөц ба байгууллагын эрсдэл
-            </h3>
-            <ul className="list-disc list-inside text-slate-300 space-y-2">
-              <li>
-                <strong>Ажилтнуудын эсэргүүцэл:</strong> Багш нар эсвэл
-                удирдлагууд шинэ технологи эсвэл журамд дургүйцэх
-              </li>
-              <li>
-                <strong>Сургалтын дутагдал:</strong> Хангалтгүй сургалтын улмаас
-                тоног төхөөрөмжийг буруу ашиглах эсвэл аюулгүй байдлын зөрчил
-                гаргах
-              </li>
-              <li>
-                <strong>Ажилтны солигдолт:</strong> Төслийн хэрэгжилтийн явцад
-                гол багийн гишүүд ажлаас гарах
-              </li>
-              <li>
-                <strong>Хамрах хүрээ тэлэх:</strong> Анхны хэмжээнээс давсан
-                шаардлагууд хяналтгүй нэмэгдэх
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-        <section>
-          <div className="space-y-6">
+            </Card>
+            <Card className="bg-orange-900/20 border-orange-700/50 rounded-2xl">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-4 text-orange-400 flex items-center">
+                  <span className="w-3 h-3 bg-orange-500 rounded-full mr-3 inline-block"></span>
+                  Нийлүүлэлтийн сүлжээ ба худалдан авалтын эрсдэл
+                </h3>
+                <ul className="list-disc list-inside text-slate-300 space-y-2">
+                  <li>
+                    <strong>Тоног төхөөрөмжийн саатал:</strong> Олон улсын
+                    нийлүүлэгчдээс үйлдвэрлэл эсвэл тээвэрлэлтийн саатал гарах
+                  </li>
+                  <li>
+                    <strong>Чанарын асуудал:</strong> Лабораторийн стандартад
+                    нийцэхгүй чанар муутай тоног төхөөрөмж
+                  </li>
+                  <li>
+                    <strong>Импортын хязгаарлалт:</strong> Шинжлэх ухааны тоног
+                    төхөөрөмжид гаалийн саатал эсвэл зохицуулалтын саад бэрхшээл
+                    үүсэх
+                  </li>
+                  <li>
+                    <strong>Нийлүүлэгчийн найдвартай байдал:</strong> Нийлүүлэгч
+                    дампуурах эсвэл амласнаа биелүүлэхгүй байх
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
             <Card className="bg-slate-800/70 border-slate-600 rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4 text-cyan-400 flex items-center">
@@ -858,7 +739,6 @@ export default function ProjectProposalWebsite() {
                 </ul>
               </CardContent>
             </Card>
-
             <Card className="bg-gradient-to-r from-red-900/30 to-orange-900/30 border-red-700/50 rounded-2xl">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4 text-red-300">
@@ -935,16 +815,9 @@ export default function ProjectProposalWebsite() {
                     <tbody className="space-y-2">
                       <tr className="border-b border-slate-700">
                         <td className="py-2">Микроскоп</td>
-                        <td className="text-center py-2">$300–$800</td>
+                        <td className="text-center py-2">$300–$450</td>
                         <td className="text-center py-2">
-                          ~1,050,000–2,800,000 MNT
-                        </td>
-                      </tr>
-                      <tr className="border-b border-slate-700">
-                        <td className="py-2">Пипетканы иж бүрдэл</td>
-                        <td className="text-center py-2">$50–$200</td>
-                        <td className="text-center py-2">
-                          ~175,000–700,000 MNT
+                          ~250,000–450,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
@@ -956,30 +829,30 @@ export default function ProjectProposalWebsite() {
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">Лабораторийн жин</td>
-                        <td className="text-center py-2">$100–$300</td>
+                        <td className="text-center py-2">$50–$150</td>
                         <td className="text-center py-2">
-                          ~350,000–1,050,000 MNT
+                          ~50,000–150,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">pH хэмжигч</td>
-                        <td className="text-center py-2">$80–$250</td>
+                        <td className="text-center py-2">$55–$150</td>
                         <td className="text-center py-2">
-                          ~280,000–875,000 MNT
+                          ~55,000–150,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">Усны ванн / хуурай ванн</td>
-                        <td className="text-center py-2">$150–$400</td>
+                        <td className="text-center py-2">$50–$150</td>
                         <td className="text-center py-2">
-                          ~525,000–1,400,000 MNT
+                          ~50,000–150,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">
                           Соронзон хутгагч / халаагч тавцан
                         </td>
-                        <td className="text-center py-2">$100–$300</td>
+                        <td className="text-center py-2">$350–$1,050</td>
                         <td className="text-center py-2">
                           ~350,000–1,050,000 MNT
                         </td>
@@ -988,7 +861,7 @@ export default function ProjectProposalWebsite() {
                         <td className="py-2">
                           Вортекс холигч / жижиг сэгсрэгч
                         </td>
-                        <td className="text-center py-2">$80–$250</td>
+                        <td className="text-center py-2">$280–$875</td>
                         <td className="text-center py-2">
                           ~280,000–875,000 MNT
                         </td>
@@ -997,46 +870,42 @@ export default function ProjectProposalWebsite() {
                         <td className="py-2">
                           Шилэн савны иж бүрдэл (аяга, колбо, туршилтын хоолой)
                         </td>
-                        <td className="text-center py-2">$50–$200</td>
+                        <td className="text-center py-2">$50–$100</td>
                         <td className="text-center py-2">
-                          ~175,000–700,000 MNT
+                          ~50,000–100,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">
                           Хэрэглээний материал (үзүүр, хоолой, бээлий, арчигч)
                         </td>
-                        <td className="text-center py-2">$100–$300</td>
-                        <td className="text-center py-2">
-                          ~350,000–1,050,000 MNT
-                        </td>
+                        <td className="text-center py-2">$41–$80</td>
+                        <td className="text-center py-2">~41,000–80,000 MNT</td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">
                           Аюулгүй байдлын хэрэгсэл (хамгаалалтын нүдний шил,
                           халаад, бээлий)
                         </td>
-                        <td className="text-center py-2">$50–$150</td>
+                        <td className="text-center py-2">$75–$125</td>
                         <td className="text-center py-2">
-                          ~175,000–525,000 MNT
+                          ~75,000–125,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">
                           Хөргөгч / жижиг лабораторийн хөргөгч
                         </td>
-                        <td className="text-center py-2">$400–$1200</td>
+                        <td className="text-center py-2">$1,200–$2,200</td>
                         <td className="text-center py-2">
-                          ~1,400,000–4,200,000 MNT
+                          ~1,200,000–2,200,000 MNT
                         </td>
                       </tr>
                       <tr>
-                        <td className="py-2">
-                          Агааржуулалт (заавал биш)
-                        </td>
-                        <td className="text-center py-2">$1000–$5000</td>
+                        <td className="py-2">Агааржуулалт (заавал биш)</td>
+                        <td className="text-center py-2">$200–$400</td>
                         <td className="text-center py-2">
-                          ~3,500,000–17,500,000 MNT
+                          ~200,000–400,000 MNT
                         </td>
                       </tr>
                     </tbody>
@@ -1085,57 +954,57 @@ export default function ProjectProposalWebsite() {
                         <td className="py-2">
                           Лабораторийн ширээ / ажлын тавцан (нэг ширээ)
                         </td>
-                        <td className="text-center py-2">$200–$800</td>
+                        <td className="text-center py-2">$250–$320</td>
                         <td className="text-center py-2">
-                          ~700,000–2,800,000 MNT
+                          ~405,000–500,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">Тавиур / хадгалах шүүгээ</td>
-                        <td className="text-center py-2">$100–$400</td>
+                        <td className="text-center py-2">$260–$290</td>
                         <td className="text-center py-2">
-                          ~350,000–1,400,000 MNT
+                          ~420,000–500,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">
                           Сандал / суудал (лабораторид аюулгүй)
                         </td>
-                        <td className="text-center py-2">$50–$150</td>
+                        <td className="text-center py-2">$130–$180</td>
                         <td className="text-center py-2">
-                          ~175,000–525,000 MNT
+                          ~210,000–630,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">Самбар / зарын самбар</td>
-                        <td className="text-center py-2">$30–$100</td>
+                        <td className="text-center py-2">$85–$120</td>
                         <td className="text-center py-2">
-                          ~105,000–350,000 MNT
+                          ~140,000–420,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">
                           Гэрэлтүүлгийн сайжруулалт (тод LED)
                         </td>
-                        <td className="text-center py-2">$50–$200</td>
+                        <td className="text-center py-2">$130–$165</td>
                         <td className="text-center py-2">
-                          ~175,000–700,000 MNT
+                          ~210,000–300,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">Будалт / интерьер</td>
-                        <td className="text-center py-2">$100–$300</td>
+                        <td className="text-center py-2">$55–$75</td>
                         <td className="text-center py-2">
-                          ~350,000–1,050,000 MNT
+                          ~85,000–120,000 MNT
                         </td>
                       </tr>
                       <tr>
                         <td className="py-2">
                           Цахилгаан / залгуурын шинэчлэлт
                         </td>
-                        <td className="text-center py-2">$100–$500</td>
+                        <td className="text-center py-2">$140–$230</td>
                         <td className="text-center py-2">
-                          ~350,000–1,750,000 MNT
+                          ~225,000–375,000 MNT
                         </td>
                       </tr>
                     </tbody>
@@ -1146,10 +1015,10 @@ export default function ProjectProposalWebsite() {
                     💡 Тавилга ба засварын нийт тооцоо:
                   </p>
                   <p className="text-slate-300">
-                    👉 Бага: ~$630 → ~2,200,000 MNT
+                    👉 Бага: ~$1,050 → ~2,900,000 MNT
                   </p>
                   <p className="text-slate-300">
-                    👉 Их: ~$2,850 → ~9,975,000 MNT
+                    👉 Их: ~$1,300 → ~3,700,000 MNT
                   </p>
                 </div>
               </CardContent>
@@ -1176,33 +1045,33 @@ export default function ProjectProposalWebsite() {
                     </thead>
                     <tbody>
                       <tr className="border-b border-slate-700">
-                        <td className="py-2">залгуур</td>
-                        <td className="text-center py-2">$200–$800</td>
+                        <td className="py-2">Залгуур</td>
+                        <td className="text-center py-2">$50–$150</td>
                         <td className="text-center py-2">
-                          ~700,000–2,800,000 MNT
+                          ~175,000–525,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
                         <td className="py-2">
                           Шугам / дамжуулах хоолой (шаардлагатай бол)
                         </td>
-                        <td className="text-center py-2">$300–$1,000</td>
+                        <td className="text-center py-2">$80–$250</td>
                         <td className="text-center py-2">
-                          ~1,050,000–3,500,000 MNT
+                          ~280,000–875,000 MNT
                         </td>
                       </tr>
                       <tr className="border-b border-slate-700">
-                        <td className="py-2">Агааржуулалт</td>
-                        <td className="text-center py-2">$300–$1,200</td>
+                        <td className="py-2">Агааржуулалт / кондиционер</td>
+                        <td className="text-center py-2">$60–$120</td>
                         <td className="text-center py-2">
-                          ~1,050,000–4,200,000 MNT
+                          ~210,000–420,000 MNT
                         </td>
                       </tr>
                       <tr>
                         <td className="py-2">Аюулгүй душ</td>
-                        <td className="text-center py-2">$100–$400</td>
+                        <td className="text-center py-2">$50–$150</td>
                         <td className="text-center py-2">
-                          ~350,000–1,400,000 MNT
+                          ~175,000–525,000 MNT
                         </td>
                       </tr>
                     </tbody>
@@ -1213,82 +1082,82 @@ export default function ProjectProposalWebsite() {
                     💡 Шугамын сүлжээ ба дэд бүтцийн тооцоо:
                   </p>
                   <p className="text-slate-300">
-                    👉 Бага: ~$900 → ~3,150,000 MNT
+                    👉 Бага: ~$240 → ~840,000 MNT
                   </p>
                   <p className="text-slate-300">
-                    👉 Их: ~$3,400 → ~11,900,000 MNT
+                    👉 Их: ~$670 → ~2,345,000 MNT
                   </p>
                 </div>
               </CardContent>
             </Card>
 
             {/* Grand Total */}
-            <Card className="bg-gradient-to-r from-blue-900/70 to-purple-900/70 border-slate-600 rounded-2xl">
-              <CardContent className="p-6">
-                <h3 className="text-2xl font-semibold mb-4 text-center text-yellow-400">
-                  📊 Нийт дүнгийн тооцоо
-                </h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-slate-300">
-                    <thead>
-                      <tr className="border-b border-slate-500">
-                        <th className="text-left py-3">Ангилал</th>
-                        <th className="text-center py-3">
-                          Бага дүн (USD / MNT)
-                        </th>
-                        <th className="text-center py-3">Их дүн (USD / MNT)</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr className="border-b border-slate-600">
-                        <td className="py-3 font-medium">
-                          Тоног төхөөрөмж ба багаж хэрэгсэл
-                        </td>
-                        <td className="text-center py-3">
-                          $2,380 / ~8.33M MNT
-                        </td>
-                        <td className="text-center py-3">
-                          $9,150 / ~32.0M MNT
-                        </td>
-                      </tr>
-                      <tr className="border-b border-slate-600">
-                        <td className="py-3 font-medium">
-                          Тавилга ба интерьер
-                        </td>
-                        <td className="text-center py-3">$630 / ~2.20M MNT</td>
-                        <td className="text-center py-3">
-                          $2,850 / ~9.98M MNT
-                        </td>
-                      </tr>
-                      <tr className="border-b border-slate-600">
-                        <td className="py-3 font-medium">
-                          Шугам сүлжээ ба суурилуулалт
-                        </td>
-                        <td className="text-center py-3">$900 / ~3.15M MNT</td>
-                        <td className="text-center py-3">
-                          $3,400 / ~11.9M MNT
-                        </td>
-                      </tr>
-                      <tr className="bg-slate-800/50">
-                        <td className="py-3 font-bold text-yellow-400">
-                          Нийт дүн
-                        </td>
-                        <td className="text-center py-3 font-bold text-green-400">
-                          ~$3,910 / ~13.7M MNT
-                        </td>
-                        <td className="text-center py-3 font-bold text-red-400">
-                          ~$15,400 / ~53.9M MNT
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <p className="text-center text-slate-400 text-sm mt-4">
-                  *Бүх үнэ нь тооцоолол бөгөөд нийлүүлэгч, байршил болон
-                  тодорхой шаардлагаас хамааран өөрчлөгдөж болно.
-                </p>
-              </CardContent>
-            </Card>
+<Card className="bg-gradient-to-r from-blue-900/70 to-purple-900/70 border-slate-600 rounded-2xl">
+  <CardContent className="p-6">
+    <h3 className="text-2xl font-semibold mb-4 text-center text-yellow-400">
+      📊 Нийт дүнгийн тооцоо
+    </h3>
+    <div className="overflow-x-auto">
+      <table className="w-full text-slate-300">
+        <thead>
+          <tr className="border-b border-slate-500">
+            <th className="text-left py-3">Ангилал</th>
+            <th className="text-center py-3">
+              Бага дүн (USD / MNT)
+            </th>
+            <th className="text-center py-3">Их дүн (USD / MNT)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border-b border-slate-600">
+            <td className="py-3 font-medium">
+              Тоног төхөөрөмж ба багаж хэрэгсэл
+            </td>
+            <td className="text-center py-3">
+              $2,020 / ~7.1M MNT
+            </td>
+            <td className="text-center py-3">
+              $5,600 / ~19.6M MNT
+            </td>
+          </tr>
+          <tr className="border-b border-slate-600">
+            <td className="py-3 font-medium">
+              Тавилга ба интерьер
+            </td>
+            <td className="text-center py-3">$1,050 / ~3.7M MNT</td>
+            <td className="text-center py-3">
+              $1,700 / ~5.95M MNT
+            </td>
+          </tr>
+          <tr className="border-b border-slate-600">
+            <td className="py-3 font-medium">
+              Шугам сүлжээ ба суурилуулалт
+            </td>
+            <td className="text-center py-3">$240 / ~0.84M MNT</td>
+            <td className="text-center py-3">
+              $670 / ~2.35M MNT
+            </td>
+          </tr>
+          <tr className="bg-slate-800/50">
+            <td className="py-3 font-bold text-yellow-400">
+              Нийт дүн
+            </td>
+            <td className="text-center py-3 font-bold text-green-400">
+              ~$3,310 / ~11.65M MNT
+            </td>
+            <td className="text-center py-3 font-bold text-red-400">
+              ~$5,270 / ~19.2M MNT
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p className="text-center text-slate-400 text-sm mt-4">
+      *Бүх үнэ нь тооцоолол бөгөөд нийлүүлэгч, байршил болон
+      тодорхой шаардлагаас хамааран өөрчлөгдөж болно.
+    </p>
+  </CardContent>
+</Card>
           </div>
         </section>
 
