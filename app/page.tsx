@@ -169,27 +169,32 @@ export default function ProjectProposalWebsite() {
                   <img
                     src="pic1.jpg"
                     alt="Current lab 1"
-                    className="w-full h-24 object-cover rounded-md"
+                    className="w-full h-32 object-cover rounded-md"
                   />
                   <img
                     src="pic2.jpg"
                     alt="Current lab 2"
-                    className="w-full h-24 object-cover rounded-md"
+                    className="w-full h-32 object-cover rounded-md"
                   />
                   <img
                     src="pic3.jpg"
                     alt="Current lab 3"
-                    className="w-full h-24 object-cover rounded-md"
+                    className="w-full h-32 object-cover rounded-md"
                   />
                   <img
                     src="pic4.jpg"
                     alt="Current lab 4"
-                    className="w-full h-24 object-cover rounded-md"
+                    className="w-full h-32 object-cover rounded-md"
                   />
                 </div>
               </div>
             </CardContent>
           </Card>
+        </section>
+
+        {/* User QA Results Graphic */}
+        <section className="mb-16">
+          <UserQAResultsGraphic />
         </section>
 
         {/* Project Rationale and Importance */}
@@ -1122,6 +1127,9 @@ export default function ProjectProposalWebsite() {
         </section>
 
         {/* Conclusion */}
+        {/* final photo embed */}
+        <FinalResultPhoto />
+
         <section className="text-center">
           <motion.h2
             initial={{ opacity: 0 }}
@@ -1151,5 +1159,127 @@ export default function ProjectProposalWebsite() {
         </section>
       </motion.div>
     </div>
+  );
+}
+
+export function UserQAResultsGraphic() {
+  return (
+    <div className="bg-gradient-to-br from-slate-900 to-slate-800 py-16">
+      <div className="w-full max-w-6xl mx-auto space-y-8">
+        {/* Main Question */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="bg-slate-800/70 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-slate-700"
+        >
+          <h2 className="text-xl md:text-2xl font-semibold text-white mb-4">
+            Лаборторын өрөөнд боломж нь байвал янз бүрийн туршилт хийхийг хүсдэг
+            үү?
+          </h2>
+
+          <div className="space-y-2">
+            <div className="flex justify-between text-sm text-slate-300">
+              <span>Тийм</span>
+              <span>90%</span>
+            </div>
+            <div className="w-full bg-slate-700 rounded-full h-4 overflow-hidden">
+              <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: "90%" }}
+                transition={{ duration: 0.8 }}
+                className="h-full bg-emerald-400"
+              />
+            </div>
+            <div className="flex justify-between text-sm text-slate-300">
+              <span>Үгүй</span>
+              <span>10%</span>
+            </div>
+            <div className="w-full bg-slate-700 rounded-full h-4 overflow-hidden">
+              <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: "10%" }}
+                transition={{ duration: 0.8 }}
+                className="h-full bg-red-400"
+              />
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Second Question */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="bg-slate-800/70 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-slate-700"
+        >
+          <h2 className="text-xl md:text-2xl font-semibold text-white mb-6">
+            Лаборторийн өрөөнд ямар төрлийн туршилт хийвэл сонирхолтой вэ?
+          </h2>
+
+          <div className="space-y-6">
+            {/* Chemistry */}
+            <div>
+              <div className="flex justify-between text-sm text-slate-300 mb-1">
+                <span>1. Химийн туршилт</span>
+                <span>30%</span>
+              </div>
+              <div className="w-full bg-slate-700 rounded-full h-4 overflow-hidden">
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: "30%" }}
+                  transition={{ duration: 0.8 }}
+                  className="h-full bg-blue-400"
+                />
+              </div>
+            </div>
+
+            {/* Biology */}
+            <div>
+              <div className="flex justify-between text-sm text-slate-300 mb-1">
+                <span>2. Биологийн туршилт</span>
+                <span>40%</span>
+              </div>
+              <div className="w-full bg-slate-700 rounded-full h-4 overflow-hidden">
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: "40%" }}
+                  transition={{ duration: 0.8 }}
+                  className="h-full bg-green-400"
+                />
+              </div>
+            </div>
+
+            {/* Physics */}
+            <div>
+              <div className="flex justify-between text-sm text-slate-300 mb-1">
+                <span>3. Физикийн туршилт</span>
+                <span>30%</span>
+              </div>
+              <div className="w-full bg-slate-700 rounded-full h-4 overflow-hidden">
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: "30%" }}
+                  transition={{ duration: 0.8 }}
+                  className="h-full bg-purple-400"
+                />
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </div>
+  );
+}
+export function FinalResultPhoto() {
+  return (
+    <section className="mb-16 text-center">
+      <h2 className="text-3xl font-bold mb-4">Final result</h2>
+      <img
+        src="pic5.jpg"
+        alt="Final result"
+        className="mx-auto max-w-full rounded-lg"
+      />
+    </section>
   );
 }
